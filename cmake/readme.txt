@@ -35,6 +35,11 @@ usage tips:
     target_compile_definitions(xxx PRIVATE "HAVE_LOG" "HAVE_EXP")
 
 
+    module path:
+             /usr/share/cmake-3.10/Modules/
+             /usr/lib/x86_64-linux-gnu/cmake/
+     CMAKE_SYSTEM_PREFIX_PATH/ default path used in find_library/path
+
     add_custome_command(OUTPUT xxxx
                         COMMAND bin xxxx
                         DEPEND bin

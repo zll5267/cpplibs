@@ -1,6 +1,10 @@
 编译构建系统: cmake
 基础库: boost
-日志库: log4cpp
+日志库:
+    log4cpp
+    glog :
+        https://github.com/google/glog
+        sudo apt-get install libgoogle-glog-dev
 
 配置库: libconfig
 
@@ -8,13 +12,14 @@
     Clara, https://github.com/catchorg/Clara,deprecated
     https://github.com/bfgroup/Lyra
     /usr/lyra/include -> /home/ecnu/project/opensource/Lyra/include/
+    gflags库:
+        sudo apt-get install -y libgflags-dev
 
 格式化输出:
     fmtlib, https://github.com/fmtlib/fmt
     /usr/fmt/include -> /home/ecnu/project/opensource2/fmt-7.1.2/include/
     /usr/fmt/lib -> /home/ecnu/project/opensource2/fmt-7.1.2/lib/
 
-gflags库:
 rpc 库: brpc
 tcmalloc库:
 
